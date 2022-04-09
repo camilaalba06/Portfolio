@@ -5,7 +5,6 @@ function Icon({listIcon}) {
 
     return (
     <div className="container-list">
-    lol
         <span data-icon = {listIcon}>{createLogos}</span>
     </div>
   );

@@ -1,17 +1,15 @@
 import '../../assets/styles/navbar.scss';
 import List from '../list/list';
 
-function Navbar({}) {
+function Navbar() {
 let navbarList = ['About', 'Experience', 'Contact'];
 
     return (
-    <div className="container-list">
+    <div className="container-navbar">
+        <p>Icon</p>
         <List listItem={navbarList} typeList={'ol'}/>
     </div>
   );
-}
-
-Navbar.defaultProps = {
 }
 
 export default Navbar;
